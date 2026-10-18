@@ -10,7 +10,7 @@ from datetime import datetime
 
 TIKTOK_URL = os.getenv(
     "TIKTOK_URL",
-    "https://www.tiktok.com/@yousryyakout/live"
+    "https://www.tiktok.com/@abdullahal3085/live"
 ).strip()
 
 STREAM_KEY = os.getenv("YOUTUBE_STREAM_KEY", "9gs2-gayu-3pjh-wda0-1tp7").strip()
