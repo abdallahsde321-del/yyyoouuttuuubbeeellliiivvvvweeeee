@@ -10,10 +10,10 @@ from datetime import datetime
 
 TIKTOK_URL = os.getenv(
     "TIKTOK_URL",
-    "https://www.tiktok.com/@abdullahal3085/live"
+    "https://www.tiktok.com/@d.shakertawfiqalaroury/live"
 ).strip()
 
-STREAM_KEY = os.getenv("YOUTUBE_STREAM_KEY", "9gs2-gayu-3pjh-wda0-1tp7").strip()
+STREAM_KEY = os.getenv("YOUTUBE_STREAM_KEY", "rvz8-2zmy-jxt4-hvdd-a19k").strip()
 DEFAULT_RTMP = (
     f"rtmp://a.rtmp.youtube.com/live2/{STREAM_KEY}" if STREAM_KEY else ""
 )
